@@ -6,6 +6,9 @@ body {
   ol, ul {
     padding-left: 30px;
   }
+  .pb-10 {
+      padding-bottom: 10px;
+  }
   
   .board-row:after {
     clear: both;
@@ -48,4 +51,11 @@ body {
   .game-info {
     margin-left: 20px;
   }
-  
+.light {
+    background-color: aqua;
+    font-weight: bold;
+}  
+
+.highlight {
+    background-color: yellow;
+  }
